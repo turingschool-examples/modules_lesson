@@ -5,6 +5,9 @@ require "./grubhub_order.rb"
 amazon = AmazonOrder.new
 grub   = GrubhubOrder.new
 
+amazon.confirmation
+grub.confirmation
+
 amazon.delivery
 grub.delivery
 
