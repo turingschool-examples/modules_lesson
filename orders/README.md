@@ -10,7 +10,7 @@ online_order.rb (Empty file)
 
 ## Background
 * The `runner` file creates two objects: an `AmazonOrder` object and a `GrubhubOrder` object.
-* The `delivery` and `review` methods are called on each object in a runner file.
+* The `confirmation`, `delivery`, and `review` methods are called on each object in a runner file.
 
 ```
 require "./amazon_order.rb"
@@ -18,6 +18,9 @@ require "./grubhub_order.rb"
 
 amazon = AmazonOrder.new
 grub   = GrubhubOrder.new
+
+amazon.confirmation
+grub.confirmation
 
 amazon.delivery
 grub.delivery
