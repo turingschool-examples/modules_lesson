@@ -1,14 +1,12 @@
 # ./jeep.rb
+require './lib/engine'
+require './lib/airconditionable'
+
 class Jeep
-  def start
-    "Engine on!"
-  end
-
-  def stop
-    "Engine off!"
-  end
-
-  def drive
-    "All wheels go!"
+  include Engine
+  include Airconditionable
+  
+  def drive_type
+    "all"
   end
 end
