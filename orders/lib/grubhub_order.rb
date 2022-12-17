@@ -1,4 +1,3 @@
-# ./grubhub_order.rb
 class GrubhubOrder
   def confirmation(thing)
     "You got #{thing}."

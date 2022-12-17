@@ -6,7 +6,7 @@ RSpec.describe AmazonOrder do
   end
 
   it 'exists' do
-    expect(@order).to be_a(AmazonOrder)
+    expect(@order).to be_an(AmazonOrder)
   end
 
   it 'can return a confirmation message' do

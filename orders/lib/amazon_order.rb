@@ -1,4 +1,3 @@
-# ./amazon_order.rb
 class AmazonOrder
   def confirmation(thing)
     "You got #{thing}."
