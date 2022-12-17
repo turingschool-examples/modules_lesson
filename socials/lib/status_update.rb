@@ -1,3 +1,4 @@
+# ./status_update.rb
 class StatusUpdate
 	attr_reader :body, :comments
 
