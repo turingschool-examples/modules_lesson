@@ -1,8 +1,7 @@
 # socials Directory
 
 ## Contents
-
-```ruby
+```
 Classes:
 ./lib/photo.rb
 ./lib/status.rb
@@ -15,12 +14,11 @@ Tests:
 
 ## Running Tests
 
-* Navigate to the `socials` directory
+* Navigate to this directory
 * run `rspec`
 * You should have 12 passing tests
 
 ## Exercise
-
   1. Extract any duplicated code into the `Commentable` module which we’ll include within each class.
     * Oftentimes, you’ll see modules named with the convention “-able”, like `Comparable` or `Enumerable`.
 
@@ -30,7 +28,6 @@ Tests:
   1. Run the tests to check if the classes still work after your refactors
 
 ## Questions
-
   1. What is similar/different between the two main classes?
   2. What design principle(s) are we breaking? Prepare to explain.
   3. How might we use mixins to make our code better?
