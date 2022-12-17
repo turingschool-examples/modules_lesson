@@ -1,4 +1,3 @@
-# ./photo.rb
 class Photo
 	attr_reader :image_source, :caption, :comments
 

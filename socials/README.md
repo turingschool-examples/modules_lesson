@@ -1,7 +1,8 @@
 # socials Directory
 
 ## Contents
-```
+
+```ruby
 Classes:
 ./lib/photo.rb
 ./lib/status.rb
@@ -14,11 +15,12 @@ Tests:
 
 ## Running Tests
 
-* Navigate to this directory
+* Navigate to the `socials` directory
 * run `rspec`
 * You should have 12 passing tests
 
 ## Exercise
+
   1. Extract any duplicated code into the `Commentable` module which we’ll include within each class.
     * Oftentimes, you’ll see modules named with the convention “-able”, like `Comparable` or `Enumerable`.
 
