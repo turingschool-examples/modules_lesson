@@ -4,11 +4,11 @@ require './lib/grubhub_order'
 amazon = AmazonOrder.new
 grub = GrubhubOrder.new
 
-amazon.confirmation
-grub.confirmation
+puts amazon.confirmation
+puts grub.confirmation
 
-amazon.delivery
-grub.delivery
+puts amazon.delivery
+puts grub.delivery
 
-amazon.review
-grub.review
+puts amazon.review
+puts grub.review
